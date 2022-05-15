@@ -274,10 +274,10 @@ extern int numplanes;
 // map.c
 //=============================================================================
 
-#define MAX_MAPFILE_PLANES			512000  				//******	 (	orig....	256000	#SpaKK#		)
-#define MAX_MAPFILE_BRUSHES			128000					//******	 (	orig....	65535	#SpaKK#		)
+#define MAX_MAPFILE_PLANES			(2*512000)  				//******	 (	orig....	256000	#SpaKK#		)
+#define MAX_MAPFILE_BRUSHES			(2*128000)				//******	 (	orig....	65535	#SpaKK#		)
 #define MAX_MAPFILE_BRUSHSIDES		(MAX_MAPFILE_BRUSHES*8)
-#define MAX_MAPFILE_TEXINFO			8192
+#define MAX_MAPFILE_TEXINFO			(2*8192)
 
 extern	int			entity_num;
 
