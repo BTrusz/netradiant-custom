@@ -1,3 +1,72 @@
+Forked solely to increase overhead for MBSPC to allow creating AAS (botfile) for the Urban Terror map "ut4_simpsons_b5.pk3"
+
+BSPC version 2.2, Oct 23 2021 23:52:36
+bsp2aas: ut4_simpsons_b5.bsp to ut4_simpsons_b5.aas
+-- Q3_LoadMapFromBSP --
+Loading map from ut4_simpsons_b5.bsp...
+ 75950 triangles
+338512 patch tris
+creating planar surface planes...
+searching visible brush sides...
+     0 brush sides17956 brush sides textured out of 52747
+    84 models          3360
+   674 shaders        48528
+  7532 brushes        90384
+ 52747 brushsides    421976
+     0 fogs               0
+ 20422 planes        326752
+   268 entdata        24780
+
+  4740 nodes         170640
+  4825 leafs         231600
+ 55351 leafsurfaces  221404
+ 18117 leafbrushes    72468
+312765 drawverts    13761660
+ 22770 drawindexes    91080
+ 30747 drawsurfaces 3197688
+    56 lightmaps    2752512
+       visibility    585624
+
+...
+
+  6440 total reachability areas
+21573456 AAS memory/CPU usage (the lower the better)
+writing ut4_simpsons_b5.aas
+numvertexes = 165138
+numplanes = 55858
+numedges = 373912
+edgeindexsize = 912563
+numfaces = 195986
+faceindexsize = 340876
+numareas = 38243
+numareasettings = 38243
+reachabilitysize = 27076
+numnodes = 129478
+numportals = 23
+portalindexsize = 44
+numclusters = 65
+ 21091 walk
+     0 crouch
+   563 barrier jump
+   474 jump
+     0 ladder
+  4870 walk off ledge
+     0 swim
+    77 water jump
+     0 teleport
+     0 elevator
+     0 rocket jump
+     0 bfg jump
+     0 grapple hook
+     0 double jump
+     0 ramp jump
+     0 strafe jump
+     0 jump pad
+     0 func bob
+freed 62 MB and 87 KB and 236 bytes of AAS memory
+BSPC run time is  3786 seconds
+
+
 NetRadiant-custom
 =================
 
